@@ -270,6 +270,7 @@ body {
   line-height: 46px;
   border-radius: 46px;
   cursor: pointer;
+
   transition: all 0.5s;
 }
 
@@ -320,7 +321,7 @@ body {
 .blog {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 20px 100px 20px;
+  padding: 116px 20px 100px 20px;
 }
 
 .title_container {
@@ -383,9 +384,51 @@ body {
 
 .footer_info {
   width: 600px;
-  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.footer_info ul {
+  display: flex;
+  padding-top: 30px;
+}
+
+.footer_info ul li i {
+  font-size: 30px;
+  padding-right: 16px;
+}
+
+.footer_info p {
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer_menu {
+  display: flex;
+}
+
+.footer_menu li {
+  width: 200px;
+}
+
+.footer_menu > li > a {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 56px;
+  display: inline-block;
+}
+
+.footer_menu ul li a {
+  color: #f2f2f2;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.bottom_logo {
+  padding-bottom: 38px;
 }
 
 .copyright {
   padding-top: 50px;
+  font-size: 12px;
+  color: #f2f2f2;
 }
