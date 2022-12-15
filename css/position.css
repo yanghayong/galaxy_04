@@ -1,0 +1,27 @@
+body {}
+
+.box {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ddd;
+    /* position: relative; */
+}
+
+.box p::after {
+    content: ' 안녕';
+}
+
+.box p::before {
+    content: 'css ';
+}
+
+.item {
+    width: 320px;
+    height: 180px;
+    background-color: orangered;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
